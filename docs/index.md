@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+## SQL Functions
 
-You can use the [editor on GitHub](https://github.com/ARalevski/DBFoundations-Module07/edit/gh-pages/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Introduction
 
-### Markdown
+In Module07, I will be learning about the different types of SQL functions, including user-defined functions (UDFs), as well as scalar, inline, and multi-statement functions.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+### User-Defined Function (UDF)
 
-# Header 1
-## Header 2
-### Header 3
+A user-defined function (UDF) in SQL allows you to create and customize your own functions. Scalar functions allow you to return a single value. Table-valued functions (TVF) returns a whole table instead of just one parameter. There are two types of TVFs: inline and multi-statement. Inline functions do not have a begin/end block, and the select statement is the output. Multi-statement functions can contain multiple statements, start with a begin/end block, and use the return operator.
 
-- Bulleted
-- List
+### Summary
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ARalevski/DBFoundations-Module07/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+In summary, there are a variety of different functions available to create custom code in SQL. Whether you are returning tables or single values, or using one or many statements, SQL makes it easy to create easy-to-use custom functions for a variety of purposes.
